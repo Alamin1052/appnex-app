@@ -5,7 +5,7 @@ import hero from '../assets/hero.png'
 const Hero = () => {
     return (
         <div>
-            <div className='bg-[#FFFFFF50] pt-10'>
+            <div className='pt-10'>
                 <div className='text-center space-y-3'>
                     <h1 className='text-4xl font-bold '>
                         We Build <br />

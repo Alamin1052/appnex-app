@@ -4,7 +4,7 @@ const Apps = () => {
     return (
         <div className='container mx-auto my-12'>
             <div className='text-center mb-10'>
-                <h1 className='text-3xl font-bold'>
+                <h1 className='text-[#001931] text-3xl font-bold'>
                     Our All Applications
                 </h1>
                 <p className='text-[#627382]'>

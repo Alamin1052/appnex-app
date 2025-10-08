@@ -23,7 +23,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='flex gap-2 items-center'>
-                        <img className="w-5 h-5 " src={logo} alt="" />
+                        <img className="w-5 h-5 max-sm:hidden " src={logo} alt="" />
                         <Link to='/' className='text-xl font-black bg-gradient-to-r from-[#632EE3] to-[#9F62F2] inline-block text-transparent bg-clip-text'>
                             Appnex</Link>
                     </div>

@@ -6,11 +6,11 @@ import iconR from '../assets/icon-ratings.png'
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-[#fbf7f5] '>
             <Hero></Hero>
             <div className='Card-container container mx-auto py-12'>
                 <div className='text-center mb-10'>
-                    <h1 className='text-3xl font-bold'>
+                    <h1 className='text-[#001931] text-3xl font-bold'>
                         Trending Apps
                     </h1>
                     <p className='text-[#627382]'>
@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <div className='card bg-[#FFFFFF] border-2 border-amber-600 rounded-lg p-3 w-[300px] shadow-lg'>
+                    <div className='card bg-[#FFFFFF] rounded-lg p-3 w-[300px] shadow-lg'>
                         <img className="w-[285px] h-[285px] rounded-lg" src="" alt="" />
                         <h2 className='font-bold my-3'>Forest: Focus for Productivity</h2>
                         <div className='flex justify-between'>
