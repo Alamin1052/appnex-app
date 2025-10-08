@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "image": "https://img.icons8.com/color/512/react-native.png",
+        "title": "Reactify",
+        "companyName": "Appnex Ltd.",
+        "description": "Reactify is a modern development framework built for creating lightning-fast user interfaces. It helps developers focus on logic rather than DOM manipulation. With built-in component reusability and optimized performance, Reactify empowers startups to launch scalable apps. The system also integrates with APIs seamlessly. It’s perfect for front-end engineers and creative developers alike.",
+        "size": 45,
+        "reviews": 1240,
+        "ratingAvg": 4.7,
+        "downloads": 58500,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15
+            },
+            {
+                "name": "2 star",
+                "count": 28
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 240
+            },
+            {
+                "name": "5 star",
+                "count": 877
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://img.icons8.com/color/512/android-os.png",
+        "title": "DroidMate",
+        "companyName": "TechNova Apps",
+        "description": "DroidMate is an Android optimization tool designed to improve performance and battery life. It analyzes background processes, clears cache, and ensures smooth gaming experiences. The app uses AI-based prediction to manage power consumption. With a friendly UI, it’s suitable for all age groups. Security and privacy remain at the core of its architecture.",
+        "size": 60,
+        "reviews": 950,
+        "ratingAvg": 4.4,
+        "downloads": 76000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 485
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://img.icons8.com/color/512/artificial-intelligence.png",
+        "title": "NeuroVision AI",
+        "companyName": "MindWorks",
+        "description": "NeuroVision AI is an innovative image recognition software that detects objects in real time. It’s widely used in surveillance, smart agriculture, and healthcare analysis. The app can identify thousands of object classes with outstanding accuracy. Machine learning models are continuously updated for better precision. It’s the next step in intelligent visual technology.",
+        "size": 80,
+        "reviews": 1200,
+        "ratingAvg": 4.8,
+        "downloads": 34000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 50
+            },
+            {
+                "name": "4 star",
+                "count": 220
+            },
+            {
+                "name": "5 star",
+                "count": 900
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://img.icons8.com/color/512/youtube-play.png",
+        "title": "TubeStream",
+        "companyName": "RedNova Media",
+        "description": "TubeStream allows users to stream and manage their video content effortlessly. It provides adaptive streaming quality depending on network speed. Users can create playlists, download videos, and share directly to social platforms. The app’s interface is sleek and intuitive. It’s ideal for video creators and content enthusiasts.",
+        "size": 70,
+        "reviews": 2800,
+        "ratingAvg": 4.5,
+        "downloads": 210000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 130
+            },
+            {
+                "name": "3 star",
+                "count": 300
+            },
+            {
+                "name": "4 star",
+                "count": 700
+            },
+            {
+                "name": "5 star",
+                "count": 1570
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://img.icons8.com/color/512/google-play.png",
+        "title": "AppHub",
+        "companyName": "Appnex Labs",
+        "description": "AppHub is a centralized app distribution system designed for startups. It allows developers to publish, manage, and analyze app performance easily. The built-in analytics dashboard gives insights into user behavior. AppHub promotes clean UI and safe downloads. It’s a new-age alternative to traditional app stores.",
+        "size": 90,
+        "reviews": 1400,
+        "ratingAvg": 4.6,
+        "downloads": 120000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 830
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://img.icons8.com/color/512/github.png",
+        "title": "CodeVault",
+        "companyName": "DevSync Ltd.",
+        "description": "CodeVault helps developers store and share code securely in the cloud. It supports version control and team collaboration. The app includes syntax highlighting, commit tracking, and AI-based code suggestions. Users can manage repositories with minimal setup. Perfect for programmers working on collaborative projects.",
+        "size": 55,
+        "reviews": 1780,
+        "ratingAvg": 4.9,
+        "downloads": 95000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 12
+            },
+            {
+                "name": "2 star",
+                "count": 15
+            },
+            {
+                "name": "3 star",
+                "count": 30
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 1523
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "https://img.icons8.com/color/512/spotify.png",
+        "title": "Soundify",
+        "companyName": "AudioLink",
+        "description": "Soundify lets users enjoy music streaming with high-quality sound. It includes curated playlists, offline download, and mood-based recommendations. The AI engine personalizes your listening experience. Its minimal UI and smooth animations make it enjoyable. Perfect for music lovers seeking simplicity and clarity.",
+        "size": 65,
+        "reviews": 3300,
+        "ratingAvg": 4.7,
+        "downloads": 500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 150
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 1000
+            },
+            {
+                "name": "5 star",
+                "count": 1650
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "https://img.icons8.com/color/512/microsoft-word-2019.png",
+        "title": "DocMaster",
+        "companyName": "OfficePlus Ltd.",
+        "description": "DocMaster is a cloud-based word processor for professionals. It enables users to create, edit, and collaborate on documents in real time. The built-in grammar AI ensures flawless writing. The app supports templates, version tracking, and team sharing. It’s an essential productivity suite for offices and students.",
+        "size": 110,
+        "reviews": 4100,
+        "ratingAvg": 4.6,
+        "downloads": 890000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150
+            },
+            {
+                "name": "2 star",
+                "count": 190
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 1200
+            },
+            {
+                "name": "5 star",
+                "count": 2160
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": "https://img.icons8.com/color/512/discord.png",
+        "title": "ChatVerse",
+        "companyName": "SocialX",
+        "description": "ChatVerse connects communities through modern chat servers. It supports text, voice, and video channels for teams and gamers. The interface is customizable and user-friendly. Advanced moderation tools ensure a safe chatting environment. It’s a digital home for creators and developers worldwide.",
+        "size": 95,
+        "reviews": 5400,
+        "ratingAvg": 4.8,
+        "downloads": 2100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 240
+            },
+            {
+                "name": "3 star",
+                "count": 480
+            },
+            {
+                "name": "4 star",
+                "count": 1200
+            },
+            {
+                "name": "5 star",
+                "count": 3280
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": "https://img.icons8.com/color/512/adobe-photoshop.png",
+        "title": "PixCraft",
+        "companyName": "Designify Studio",
+        "description": "PixCraft is a professional-grade photo editing app packed with creative tools. It features layers, filters, brushes, and AI-based auto-enhance. Users can easily manipulate and retouch images. The app is optimized for both beginners and professionals. Creativity has never been this smooth and efficient.",
+        "size": 180,
+        "reviews": 2900,
+        "ratingAvg": 4.7,
+        "downloads": 980000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 180
+            },
+            {
+                "name": "3 star",
+                "count": 350
+            },
+            {
+                "name": "4 star",
+                "count": 700
+            },
+            {
+                "name": "5 star",
+                "count": 1550
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+        "title": "Pixel Editor",
+        "companyName": "DreamSoft Studio",
+        "description": "Pixel Editor is a lightweight yet powerful photo editing app designed for creators. You can crop, adjust colors, and apply unique filters easily. It supports high-resolution exports and quick sharing options. The UI is beginner-friendly, making it a favorite among casual designers. Advanced users can also use layer-based editing tools.",
+        "size": 42,
+        "reviews": 4521,
+        "ratingAvg": 4.6,
+        "downloads": 120000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 180
+            },
+            {
+                "name": "3 star",
+                "count": 400
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 2221
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "title": "CodeFlow",
+        "companyName": "SyntaxLab",
+        "description": "CodeFlow helps developers write, test, and debug code in real-time. It includes syntax highlighting, smart autocomplete, and built-in error checking. The app supports multiple languages like JavaScript, Python, and C++. It’s perfect for both beginners and professional coders. Cloud sync ensures your work is always safe.",
+        "size": 75,
+        "reviews": 8700,
+        "ratingAvg": 4.8,
+        "downloads": 230000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150
+            },
+            {
+                "name": "2 star",
+                "count": 200
+            },
+            {
+                "name": "3 star",
+                "count": 650
+            },
+            {
+                "name": "4 star",
+                "count": 2200
+            },
+            {
+                "name": "5 star",
+                "count": 5500
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": "https://cdn-icons-png.flaticon.com/512/733/733553.png",
+        "title": "FitZone",
+        "companyName": "HealthTrack Inc",
+        "description": "FitZone keeps track of your workouts, calories, and sleep patterns. The app uses AI to recommend personalized fitness routines. You can join live workout sessions and monitor your progress weekly. It integrates with smartwatches for real-time tracking. Stay fit and motivated with daily fitness challenges.",
+        "size": 68,
+        "reviews": 5120,
+        "ratingAvg": 4.5,
+        "downloads": 180000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 130
+            },
+            {
+                "name": "2 star",
+                "count": 240
+            },
+            {
+                "name": "3 star",
+                "count": 500
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 2650
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
+        "title": "NoteX",
+        "companyName": "MindWare Apps",
+        "description": "NoteX allows you to create, organize, and sync notes seamlessly across devices. You can categorize notes with tags and even add voice recordings. It supports dark mode and offline access. Collaboration features let teams share and edit notes in real-time. Great for students, writers, and project managers alike.",
+        "size": 32,
+        "reviews": 4120,
+        "ratingAvg": 4.3,
+        "downloads": 95000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 150
+            },
+            {
+                "name": "3 star",
+                "count": 420
+            },
+            {
+                "name": "4 star",
+                "count": 1200
+            },
+            {
+                "name": "5 star",
+                "count": 2270
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+        "title": "MusicBeat",
+        "companyName": "Harmony Studio",
+        "description": "MusicBeat offers millions of songs with personalized playlists based on your mood. You can create your own mixes and explore trending artists worldwide. The app provides high-quality audio streaming with an offline mode. It even suggests songs using AI based on your daily activity. Enjoy music like never before.",
+        "size": 56,
+        "reviews": 12100,
+        "ratingAvg": 4.7,
+        "downloads": 520000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 250
+            },
+            {
+                "name": "2 star",
+                "count": 300
+            },
+            {
+                "name": "3 star",
+                "count": 900
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 7550
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
+        "title": "LangMate",
+        "companyName": "GlobalTalk Labs",
+        "description": "LangMate is your AI-powered language learning companion. It features real-time voice translation, flashcards, and grammar lessons. You can practice speaking with native speakers around the world. The app also tracks your progress with daily goals. Learning a new language has never been this fun and easy.",
+        "size": 80,
+        "reviews": 6400,
+        "ratingAvg": 4.6,
+        "downloads": 210000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200
+            },
+            {
+                "name": "2 star",
+                "count": 300
+            },
+            {
+                "name": "3 star",
+                "count": 500
+            },
+            {
+                "name": "4 star",
+                "count": 1900
+            },
+            {
+                "name": "5 star",
+                "count": 3500
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968342.png",
+        "title": "Taskify",
+        "companyName": "NextVision Co",
+        "description": "Taskify helps you manage projects, track progress, and stay productive. The app offers a clean interface with drag-and-drop task organization. You can create deadlines, assign tasks, and share progress with your team. Taskify also integrates with Google Calendar and Slack. Stay organized and stress-free every day.",
+        "size": 45,
+        "reviews": 3200,
+        "ratingAvg": 4.2,
+        "downloads": 86000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 140
+            },
+            {
+                "name": "3 star",
+                "count": 430
+            },
+            {
+                "name": "4 star",
+                "count": 1300
+            },
+            {
+                "name": "5 star",
+                "count": 1240
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+        "title": "TravelEase",
+        "companyName": "SkyRoute Ltd",
+        "description": "TravelEase helps travelers plan and book trips easily. It includes flight search, hotel booking, and itinerary planning. The app provides real-time flight updates and weather alerts. You can save destinations and explore local attractions nearby. Your travel journey becomes smooth and hassle-free with TravelEase.",
+        "size": 63,
+        "reviews": 7000,
+        "ratingAvg": 4.5,
+        "downloads": 200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 230
+            },
+            {
+                "name": "2 star",
+                "count": 300
+            },
+            {
+                "name": "3 star",
+                "count": 600
+            },
+            {
+                "name": "4 star",
+                "count": 1800
+            },
+            {
+                "name": "5 star",
+                "count": 4070
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968260.png",
+        "title": "EduLearn",
+        "companyName": "BrightFuture EdTech",
+        "description": "EduLearn brings interactive courses from top universities right to your phone. You can learn coding, business, and science with video lectures and quizzes. The app allows offline learning and certification after completion. Teachers can also upload their own content. It’s a complete solution for online learning.",
+        "size": 70,
+        "reviews": 9300,
+        "ratingAvg": 4.8,
+        "downloads": 300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 190
+            },
+            {
+                "name": "2 star",
+                "count": 210
+            },
+            {
+                "name": "3 star",
+                "count": 450
+            },
+            {
+                "name": "4 star",
+                "count": 2200
+            },
+            {
+                "name": "5 star",
+                "count": 6250
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        "title": "Budgetly",
+        "companyName": "FinSmart Ltd",
+        "description": "Budgetly tracks your income and expenses with smart analytics. It categorizes your spending automatically using AI. You can set financial goals and receive daily saving reminders. The app visualizes your data with graphs for better insight. Stay on top of your money effortlessly with Budgetly.",
+        "size": 38,
+        "reviews": 6100,
+        "ratingAvg": 4.4,
+        "downloads": 150000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150
+            },
+            {
+                "name": "2 star",
+                "count": 220
+            },
+            {
+                "name": "3 star",
+                "count": 520
+            },
+            {
+                "name": "4 star",
+                "count": 1600
+            },
+            {
+                "name": "5 star",
+                "count": 3610
+            }
+        ]
+    }
+]
