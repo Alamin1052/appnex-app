@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaBeer, FaGithub } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
     return (
@@ -21,10 +22,14 @@ const Navbar = () => {
                             <li><Link to='/installation'>Installation</Link></li>
                         </ul>
                     </div>
-                    <Link to='/' className='text-xl font-black bg-gradient-to-r from-[#632EE3] to-[#9F62F2] inline-block text-transparent bg-clip-text'>Appnex</Link>
+                    <div className='flex gap-2 items-center'>
+                        <img className="w-5 h-5 " src={logo} alt="" />
+                        <Link to='/' className='text-xl font-black bg-gradient-to-r from-[#632EE3] to-[#9F62F2] inline-block text-transparent bg-clip-text'>
+                            Appnex</Link>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 font-semibold">
                         <NavLink className={({ isActive }) =>
                             isActive ? "text-violet-500 underline" : "text-black"} to='/'>Home</NavLink>
                         <NavLink className={({ isActive }) =>
@@ -34,7 +39,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://github.com/dashboard" className="text-white btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub />Contribute</a>
+                    <a href="https://github.com/Alamin1052" className="text-white btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub />Contribute</a>
                 </div>
             </div >
         </div >
