@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../Component/Hero';
 import Card from '../Component/Card';
 import useApps from '../Hooks/useApps';
+import { Link } from 'react-router';
 
 
 const Home = () => {
@@ -22,14 +23,16 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className='grid grid-cols-4 gap-4 max-sm:grid-cols-1 max-md:grid-cols-2 max-sm:p-10 '>
+                <div className='grid grid-cols-4 gap-5 max-sm:grid-cols-1 max-md:grid-cols-2 max-sm:p-10 '>
                     {
                         trendingApps.map(app => (<Card app={app} />))
                     }
                 </div>
-
+                <div className='flex justify-center text-center mt-8 '>
+                    <Link to='/apps' className='text-white btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>Show All</Link>
+                </div>
             </div>
-        </div>
+        </div >
 
     );
 };

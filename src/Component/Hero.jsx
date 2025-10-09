@@ -32,7 +32,7 @@ const Hero = () => {
                         <p className='text-[12px] font-light'>
                             Total Downloads
                         </p>
-                        <h1 className='text-3xl font-bold'>29.6M</h1>
+                        <h1 className='text-3xl font-bold my-3'>29.6M</h1>
                         <p className='text-[12px] font-light'>
                             21% more than last month
                         </p>
@@ -41,7 +41,7 @@ const Hero = () => {
                         <p className='text-[12px] font-light'>
                             Total Reviews
                         </p>
-                        <h1 className='text-3xl font-bold'>906K</h1>
+                        <h1 className='text-3xl font-bold my-3'>906K</h1>
                         <p className='text-[12px] font-light'>
                             46% more than last month
                         </p>
@@ -50,7 +50,7 @@ const Hero = () => {
                         <p className='text-[12px] font-light'>
                             Active Apps
                         </p>
-                        <h1 className='text-3xl font-bold'>132+</h1>
+                        <h1 className='text-3xl font-bold my-3'>132+</h1>
                         <p className='text-[12px] font-light'>
                             31 more will Launch
                         </p>

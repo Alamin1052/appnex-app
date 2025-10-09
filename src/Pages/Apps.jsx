@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Card from '../Component/Card';
+import useApps from '../Hooks/useApps';
 
 const Apps = () => {
+    const { apps, loading } = useApps()
+    const [search, setSearch] = useState('')
+    const term = search.trim().toLocaleLowerCase()
+
+    const searchApps = term ? apps.filter(app => app.title.toLocaleLowerCase().includes(term)) : apps
+
     return (
         <div className='container mx-auto my-12'>
             <div className='text-center mb-10'>
@@ -14,7 +22,7 @@ const Apps = () => {
             <div>
                 <div className='flex justify-between mb-4'>
                     <h2 className='font-bold'>
-                        (50)Apps Found
+                        ({searchApps.length})Apps Found
                     </h2>
                     <label className="input">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -29,11 +37,20 @@ const Apps = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input type="search" required placeholder="Search" />
+                        <input
+                            value={search}
+                            onChange={e => setSearch(e.target.value)}
+                            type="search"
+                            required placeholder="Search" />
                     </label>
                 </div>
             </div>
-        </div>
+            <div className='grid grid-cols-4 gap-5 max-sm:grid-cols-1 max-md:grid-cols-2 max-sm:p-10'>
+                {
+                    searchApps.map(app => (<Card key={app.id} app={app} />))
+                }
+            </div>
+        </div >
     );
 };
 
