@@ -11,7 +11,7 @@ const Apps = () => {
 
     return (
         <div className='container mx-auto my-12'>
-            <div className='text-center mb-10'>
+            <div className='text-center mb-10 max-sm:p-6'>
                 <h1 className='text-[#001931] text-3xl font-bold'>
                     Our All Applications
                 </h1>
@@ -20,7 +20,7 @@ const Apps = () => {
                 </p>
             </div>
             <div>
-                <div className='flex justify-between mb-4'>
+                <div className='flex justify-between mb-4 max-sm:p-6'>
                     <h2 className='font-bold'>
                         ({searchApps.length})Apps Found
                     </h2>
