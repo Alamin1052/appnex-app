@@ -29,7 +29,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 font-semibold">
+                    <ul className="menu menu-horizontal text-lg px-1 font-semibold">
                         <NavLink className={({ isActive }) =>
                             isActive ? "text-violet-500 underline" : "text-black"} to='/'>Home</NavLink>
                         <NavLink className={({ isActive }) =>

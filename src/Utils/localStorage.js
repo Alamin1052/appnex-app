@@ -1,3 +1,5 @@
+import toast from "react-hot-toast"
+
 export const loadInstallation = () => {
     try {
         const data = localStorage.getItem('installation')
@@ -13,9 +15,10 @@ export const updateList = app => {
 
     try {
         const isDuplicate = installation.some(a => a.id === app.id)
-        if (isDuplicate) return alert('Already Installed')
+        if (isDuplicate) return toast.error('Already Installed')
         const updatedInstallationlist = [...installation, app]
         localStorage.setItem('installation', JSON.stringify(updatedInstallationlist))
+        toast.success('App Install successful')
     } catch (err) {
         console.log(err)
     }

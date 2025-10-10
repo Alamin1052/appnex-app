@@ -25,6 +25,8 @@ const AppDetails = () => {
     const handleInstall = () => {
         updateList(app)
         setInstalled(true)
+
+
     }
 
     return (
@@ -61,7 +63,7 @@ const AppDetails = () => {
 
                         </div>
                         <div>
-                            <button onClick={handleInstall} className="btn btn-success text-white">
+                            <button onClick={handleInstall} disabled={Installed} className="btn btn-success text-white">
                                 {Installed ? 'Installed' : `Install Now (${size}MB)`}
                             </button>
                         </div>

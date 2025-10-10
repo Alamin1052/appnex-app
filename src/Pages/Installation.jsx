@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { loadInstallation, removeFromInstallation } from '../Utils/localStorage';
 import iconR from '../assets/icon-ratings.png'
 import iconD from '../assets/icon-downloads.png'
+import toast from 'react-hot-toast';
 
 const Installation = () => {
 
@@ -21,24 +22,24 @@ const Installation = () => {
     const handleRemove = (id) => {
         removeFromInstallation(id)
         setInstallation(prev => prev.filter(a => a.id !== id))
-        alert('Uninstall successfull')
+        toast.success('Uninstall successful')
     }
 
 
     return (
         <div className='container mx-auto py-12 max-sm:px-5'>
-            <div className='text-center mb-10'>
+            <div className='text-center mb-12'>
                 <h1 className='text-[#001931] text-3xl font-bold'>
                     Your Installed Apps
                 </h1>
-                <p className='text-[#627382]'>
+                <p className='text-[#627382] mt-2'>
                     Explore All Trending Apps on the Market developed by us
                 </p>
             </div>
             <div className=''>
                 <div className='flex justify-between items-center mb-3'>
                     <h2 className='font-bold'>({sortedItem.length}) Apps Found</h2>
-                    <label className='form-control w-full max-w-xs'>
+                    <label className='form-control w-full max-w-xs max-sm:w-[50%]'>
                         <select
                             className='select select-bordered'
                             value={sortOrder}
@@ -52,11 +53,11 @@ const Installation = () => {
                 </div>
                 {
                     sortedItem.map(a => (
-                        <div className='flex justify-between gap-3 items-center bg-[#FFFFFF] rounded-lg p-3 w-full shadow-lg mb-3'>
-                            <div className='flex gap-4 items-center'>
+                        <div className='flex justify-between gap-3 items-center bg-[#FFFFFF] rounded-lg p-3 w-full shadow-lg my-5 mx-auto max-sm:flex-col max-sm:w-[90%]'>
+                            <div className='flex gap-4 items-center max-sm:flex-col max-sm:text-center max-sm:gap-0'>
                                 <img className="w-[85px] h-[85px] rounded-lg" src={a.image} alt="" />
                                 <div>
-                                    <h2 className='font-bold my-3'>{a.title}</h2>
+                                    <h2 className='font-bold my-3 max-sm:my-1'>{a.title}</h2>
                                     <div className='flex gap-6'>
                                         <div className=' flex gap-1 items-center rounded-sm'>
                                             <img className="w-4 " src={iconD} alt="" />
