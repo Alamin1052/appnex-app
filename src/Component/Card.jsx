@@ -8,9 +8,9 @@ const Card = ({ app }) => {
     return (
         <div>
             <Link to={`/apps/${id}`}>
-                <div className='card bg-[#FFFFFF]  rounded-lg p-3 shadow-lg'>
+                <div className='card bg-[#FFFFFF]  rounded-xl p-4 shadow-lg'>
                     <img className="w-[285px] h-[285px] rounded-lg mx-auto inline-block" src={image} alt="" />
-                    <h2 className='font-bold text-xl my-3'>{title}</h2>
+                    <h2 className='font-bold text-2xl my-3'>{title}</h2>
                     <div className='flex justify-between'>
                         <div className='bg-[#F1F5E8] flex gap-1 py-1 px-3  items-center rounded-sm'>
                             <img className="w-4 " src={iconD} alt="" />

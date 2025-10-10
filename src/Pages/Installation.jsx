@@ -51,9 +51,11 @@ const Installation = () => {
                         </select>
                     </label>
                 </div>
-                {
+                {installation.length === 0 ? (
+                    <p className="text-center font-bold text-[#62738280] text-2xl mt-10">No Apps Installed</p>
+                ) : (
                     sortedItem.map(a => (
-                        <div className='flex justify-between gap-3 items-center bg-[#FFFFFF] rounded-lg p-3 w-full shadow-lg my-5 mx-auto max-sm:flex-col max-sm:w-[90%]'>
+                        <div key={a.id} className='flex justify-between gap-3 items-center bg-[#FFFFFF] rounded-lg p-3 w-full shadow-lg my-5 mx-auto max-sm:flex-col max-sm:w-[90%]'>
                             <div className='flex gap-4 items-center max-sm:flex-col max-sm:text-center max-sm:gap-0'>
                                 <img className="w-[85px] h-[85px] rounded-lg" src={a.image} alt="" />
                                 <div>
@@ -76,7 +78,7 @@ const Installation = () => {
                             </div>
                         </div>
                     ))
-                }
+                )}
             </div>
         </div>
     );

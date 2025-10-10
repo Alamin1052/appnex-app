@@ -9,7 +9,7 @@ const Footer = () => {
                 <aside className='max-sm:flex max-sm:flex-col max-sm:items-center max-sm:text-center max-sm:mx-auto'>
                     <img className="w-10 flex justify-center text-center mx-auto" src={logo} alt="" />
                     <p className=''>
-                        <span className='text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] inline-block text-transparent bg-clip-text'>
+                        <span className='text-xl font-bold inline-block bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-transparent bg-clip-text'>
                             Appnex</span> Technology Ltd.
                         <br />
                         Providing reliable tech since 2025
